@@ -323,16 +323,18 @@ footer {
   background: #0a2908;
   color: #fff;
   margin-top: auto;
+  
 }
 
-footer a {
+footer h3 {
   font-size: 150%;
+  line-height: 45px;
 }
 
 footer a img {
-  height: 35px;
-  margin-left: 10px;
-  margin-right: 10px;
+  height: 45px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 /*modifier to fix issues on mobile devices*/
