@@ -26,6 +26,7 @@ N/A
 
 
 ![Pushing it!!](./assets/images/mini4.JPG)
+
 Picture retrieved from my personal work.
 
 ### Credits
