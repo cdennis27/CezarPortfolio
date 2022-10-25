@@ -1,3 +1,11 @@
+:root {
+  --brightyellow: #dedfa1;
+  --darkgreen: #0a2908;
+  --darkgreenhover: #0e390b;
+  --mediumgreen: rgb(110, 131, 104);
+  --lightgreen: rgb(212, 220, 208);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -30,6 +38,7 @@ body {
 
 }
 
+/*header styling below*/
 header {
   display: grid;
   grid-template-columns: 60% 40%;
@@ -37,19 +46,20 @@ header {
   width: 100%;
   top: 0;
   flex-direction: row;
-  background: #0a2908;
-  border-bottom: 10px solid #dedfa1;
-  color: #dedfa1;
+  background: var(--darkgreen);
+  border-bottom: 10px solid var(--brightyellow);
+  color: var(--brightyellow);
   z-index: +5;
 }
 
+/*header right side area*/
 .header-home {
   position: relative;
   top: 0;
   padding-right: 40px;
   padding-top: 60px;
   text-align: right;
-  color: #dedfa1;
+  color: var(--brightyellow);
   min-width: 100%;
   max-width: 100%;
 }
@@ -57,11 +67,12 @@ header {
 .header-home a {
   text-decoration: none;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #dedfa1;
+  color: var(--brightyellow);
   transition: 200ms ease-in-out;
 
 }
 
+/*header navigation area on the left*/
 nav {
   position: relative;
   top: 0px;
@@ -82,7 +93,7 @@ nav a {
   display: flex;
   line-height: 25px;
   font-size: 1.5rem;
-  color: #dedfa1;
+  color: var(--brightyellow);
   padding: 5px 10px;
   text-decoration: none;
   text-align: center;
@@ -90,16 +101,18 @@ nav a {
   transition: 200ms ease-in-out;
 }
 
+/*hovering features for header*/
 nav a:hover,
 nav a:focus-visible,
 .header-home a:hover,
 .header-home a:focus-visible {
-  background: #0e390b;
-  border-bottom: 2px solid #dedfa1;
-  border-right: 2px solid #dedfa1;
+  background: var(--darkgreenhover);
+  border-bottom: 2px solid var(--brightyellow);
+  border-right: 2px solid var(--brightyellow);
   border-radius: 10%;
 }
 
+/*body starts here*/
 main {
   position: relative;
   top: 0px;
@@ -109,6 +122,7 @@ main {
   flex-direction: column;
 }
 
+/*about me horizontal bar*/
 .aboutme {
   display: flex;
   flex-wrap: wrap;
@@ -131,7 +145,7 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #dedfa1;
+  background-color: var(--brightyellow);
   background-image: url("../images/mini2.JPG");
   background-size: cover;
   background-position: center;
@@ -168,17 +182,17 @@ main {
   align-content: left;
   margin-right: 10px;
   text-align: center;
-  color: #0a2908;
+  color: var(--darkgreen);
   align-content: right;
 }
 
 .aboutme h1 {
-  color: #0a2908;
+  color: var(--darkgreen);
   margin-right: 2%;
 }
 
 .aboutme li {
-  color: #0a2908;
+  color: var(--darkgreen);
   font-size: 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-style: oblique;
@@ -186,6 +200,7 @@ main {
   text-align: none;
 }
 
+/*Left Hand bar with subtitles for containers beside*/
 .container-work {
   display: flex;
   flex: 1.2;
@@ -199,7 +214,7 @@ main {
   text-align: left;
   border-right: 5px solid black;
   height: 100%;
-  background-color: white;
+  background-color: var(--lightgreen);
 }
 
 .container-work-header h3 {
@@ -207,17 +222,15 @@ main {
   text-align: center;
 }
 
+/*samples cards below*/
 .container {
 
   display: grid;
   grid-template-columns: repeat(30%, 30%, 30%);
   grid-template-columns: repeat(auto-fit, minmax(900px, auto-fit));
-  /*grid-template-rows: auto;
-  grid-auto-rows: minmax(300px, auto);*/
-
+  background-color: var(--lightgreen);
   grid-row-gap: 20px;
   grid-column-gap: 20px;
-
   padding: 30px;
 }
 
@@ -225,8 +238,6 @@ main {
   /*also can use grid-column or row: span 3 or 1;*/
   grid-column-start: 1;
   grid-column-end: 4;
-
-
 }
 
 .container h3 {
@@ -244,6 +255,7 @@ main {
   align-self: center;
 }
 
+/*styling for the cards*/
 .tile {
   display: flex;
   flex-wrap: wrap;
@@ -255,21 +267,19 @@ main {
   margin: 20px;
   flex: 0 0 300px;
   border-radius: 5%;
-  border: 1px solid rgb(110, 131, 104);
+  border: 1px solid var(--mediumgreen);
   border-style: outset;
   transform: Rotate(0deg);
   box-shadow: 10px 5px 10px rgb(177, 183, 174);
-  /*x y fade color*/
   transition: 1s;
   overflow: hidden;
   min-width: 360px;
 }
 
 
-
+/*features when hovering on cards*/
 .tile:hover,
 .tile:focus-visible {
-  /*x y fade color*/
   box-shadow: 10px 5px 20px rgb(1, 16, 13);
   transition: 0.5s;
   padding: 50px;
@@ -291,8 +301,8 @@ main {
   font-size: 20px;
   font-weight: bold;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #dedfa1;
-  background-color: #0a2908;
+  color: var(--brightyellow);
+  background-color: var(--darkgreen);
   text-align: center;
 }
 
@@ -313,6 +323,7 @@ main {
   overflow-block: -10px;
 }
 
+/*styling for footer and contacts*/
 footer {
   position: relative;
   width: 100%;
@@ -320,10 +331,10 @@ footer {
   bottom: 0;
   padding: 20px;
   text-align: center;
-  background: #0a2908;
+  background: var(--darkgreen);
   color: #fff;
   margin-top: auto;
-  
+
 }
 
 footer h3 {
@@ -363,9 +374,9 @@ footer a img {
     position: sticky;
     width: 100%;
     top: 0;
-    background: #0a2908;
-    border-bottom: 10px solid #dedfa1;
-    color: #dedfa1;
+    background: var(--darkgreen);
+    border-bottom: 10px solid var(--brightyellow);
+    color: var(--brightyellow);
     z-index: +1;
   }
 
@@ -375,6 +386,7 @@ footer a img {
     padding: 20px;
 
   }
+
   nav {
     height: 100px;
   }
@@ -420,7 +432,7 @@ footer a img {
 
   footer {
     height: 1000px;
-    background-color: #0a2908;
+    background-color: var(--darkgreen);
   }
 
 
@@ -452,12 +464,11 @@ footer a img {
 
   .tile {
     padding: 20px;
-
   }
 
   footer {
     height: 1000px;
-    background-color: #0a2908;
+    background-color: var(--darkgreen);
   }
 }
 
@@ -491,21 +502,6 @@ footer a img {
 
   footer {
     height: 1000px;
-    background-color: #0a2908;
+    background-color: var(--darkgreen);
   }
 }
-
-/*added for use with grid layoput only*/
-/*@media screen and (min-width: 1880px) {
-  .container {
-    
-  }
-
-  .first-tile {
-    /*also can use grid-column or row: span 3 or 1;
-    grid-column-start: 1;
-    grid-column-end: 4;
-  }
-
-
-}*/
