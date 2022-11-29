@@ -1,4 +1,4 @@
-# <Challenge 2>
+# <Portfolio Page based on Challenge 2>
 
 ## Description
 
@@ -15,11 +15,18 @@ Portfolio page made in HTML and CSS at the moment
 - About me Bar.
 - Work samples.
 - Footer with contact information.
+- Added Group Project files to Portfolio.
 
 
 ## Installation
 
 N/A
+
+## Links
+
+Link to WebPage: https://cdennis27.github.io/PortfolioPageChallenge2/
+
+Link to GitHub Repository: https://github.com/cdennis27/PortfolioPageChallenge2
 
 ## Usage
 
