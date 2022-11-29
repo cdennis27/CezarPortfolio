@@ -30,9 +30,11 @@ Link to GitHub Repository: https://github.com/cdennis27/PortfolioPageChallenge2
 
 ## Usage
 
+Portfolio page to help demonstrate my skills with a series of work examples.
 
+## Screenshot
 
-![Pushing it!!](./assets/images/mini4.JPG)
+![Portfolio page screenshot](./assets/images/portfolioimage.jpg)
 
 Picture retrieved from my personal work.
 
