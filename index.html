@@ -10,105 +10,103 @@
 </head>
 
 <body>
-  <!-- Header -->
+
   <header>
-    <nav>
-      <a href="#footer">Contact</a>
+    <!-- Navigation buttons sticky all pages -->
+    <nav class="header-bar-left centered">
+      <a href="index.html">Home</a>
+      <a href="./views/contact.html">Contact</a>
       <a href="#Portfolio">Work</a>
-      <a href="https://www.google.ca">Resume</a>
-      <a href="#aboutme">About me</a>
+      <a href="./resume.html">Resume</a>
+      <a href="./aboutme.html">About me</a>
+      <a href="./projects.html">Portfolio</a>
     </nav>
-
-    <div class="header-home">
-      <h1><a href="index.html">Cezar Amaral</a></h1>
-      <p>
-        Software Developer
-      </p>
-    </div>
-
-
 
   </header>
   <!-- Body -->
   <main>
     <!-- about me -->
     <div class="aboutme" id="aboutme">
-      <a href="#" class="image">
-        <h1>About me: beautiful drawing of myself place holder</h1>
-      </a>
-      <!--<a href="#" class="image"><img src="./assets/images/fiat.JPG" alt="My Avatar Drawing is being done"></a>-->
-      <div class="aboutmeright">
-        <div class="rightbox">
-          <h1>Software Developer</h1>
-          <li>I.T.</li>
-          <li>Web design</li>
-          <li>Robotics</li>
-          <li>Mechatronics</li>
+      <div class="aboutme-left-container">
+        <div class="centered">
+          <h1>Cezar Amaral</h1>
+          <p>Product Manager</p>
+          <p>Software Developer</p>
+          <p>Web design</p>
+          <p>I.T.</p>
         </div>
       </div>
+      <a href="./aboutme.html" class="aboutme-right-container">
+        <img src="./assets/images/myDrawing.gif" alt="Gif with me coding" />
+      </a>
     </div>
-    <div class="container-work">
-      <sidebar>
-        <section class="container-work-header">
-          <h3>WORK</h3>
-          <h3>SAMPLES</h3>
-        </section>
-      </sidebar>
+    <!-- Web Projects -->
+    <section class="webProjects-container">
+      <div class="webProjects-header">
+        <h3>Software Projects / Web development</h3>
+      </div>
       <!-- Work Sample Cards -->
-      <div class="container" id="container">
+      <div class="webProjects-cards">
 
-        <section class="tile first-tile">
-          <a href="#Portfolio">
-            <!--for now portfolio html will be changed-->
-            <h2 id="Portfolio">Portfolio</h2>
-            <img src="./assets/images/portfolioimage.jpg" alt="Screenshot of portfolio page" />
-            <p>HTML, CSS Website</p>
+        <div class="card">
+          <a href="https://classiccarwhipz.herokuapp.com/">
+            <h2>Classic Whipz</h2>
+            <img src="./assets/images/CardealerappScreenshot.jpg" alt="Screenshot of Classic Whipz page" />
+            <p>E-Commerce website with MySQL database and Stripe integrated.</p>
           </a>
-        </section>
+        </div>
 
-        <section class="tile second-tile">
+        <div class="card">
+          <a href="https://cdennis27.github.io/WeatherApp/">
+            <h2>Weather Spot</h2>
+            <img src="./assets/images/Weatherapphomepage.jpg" alt="Weather website screenshot" />
+            <p>Weather Website with user time and location inquire.</p>
+          </a>
+        </div>
+
+        <div class="card">
           <a href="https://cdennis27.github.io/budgettrackergroup2/">
             <h2>Budget Tracker</h2>
-            <img src="./assets/images/Screenshot1.jpg" alt="budget tracker screenshot" />
-            <p>App to help on budgeting, done in a group</p>
+            <img src="./assets/images/BudgetControlCurrencyExchange.jpg" alt="budget tracker screenshot" />
+            <p>App to help on budgeting.</p>
           </a>
-        </section>
-
-        <section class="tile second-tile">
-          <a href="https://cdennis27.github.io/prework/">
-            <h2>Prework</h2>
-            <!--Marketplace later-->-->
-            <img src="./assets/images/prework.jpg" alt="prework webpage screenshot" />
-            <p>Prework trial</p>
-          </a>
-        </section>
-        
-        <section class="tile">
-          <a href="./assets/images/must2.JPG">
-            <h2>Social Media</h2>
-            <img src="./assets/images/must1.JPG" alt="Mustang fastback 1966 grey" />
-            <p>Posts, comments</p>
-          </a>
-        </section>
-
-        <section class="tile">
-          <a href="./assets/images/cuda.JPG">
-            <h2>News</h2>
-            <img src="./assets/images/911.JPG" alt="green Porsche 911" />
-            <p>Lots of API</p>
-          </a>
-        </section>
-
-        <section class="tile">
-          <a href="./assets/images/cuda.JPG">
-            <h2>Marketplace</h2>
-            <img src="./assets/images/cuda.JPG" alt="Red Car Cuda" />
-            <p>Sign in, cart page</p>
-          </a>
-        </section>
+        </div>
 
       </div>
-    </div>
+    </section>
+    <section class="webProjects-container">
+      <div class="webProjects-header">
+        <h3>Product Management Projects</h3>
+      </div>
+      <!-- Work Sample Cards -->
+      <div class="webProjects-cards">
+
+        <div class="card">
+          <a href="https://classiccarwhipz.herokuapp.com/">
+            <h2>Classic Whipz</h2>
+            <img src="./assets/images/mini1.JPG" alt="Screenshot of Classic Whipz page" />
+            <p>E-Commerce website with MySQL database and Stripe integrated.</p>
+          </a>
+        </div>
+
+        <div class="card">
+          <a href="https://cdennis27.github.io/WeatherApp/">
+            <h2>Weather Spot</h2>
+            <img src="./assets/images/mini2.JPG" alt="budget tracker screenshot" />
+            <p>Weather Website with user time and location inquire.</p>
+          </a>
+        </div>
+
+        <div class="card">
+          <a href="https://cdennis27.github.io/budgettrackergroup2/">
+            <h2>Budget Tracker</h2>
+            <img src="./assets/images/mini2.JPG" alt="budget tracker screenshot" />
+            <p>App to help on budgeting.</p>
+          </a>
+        </div>
+
+      </div>
+    </section>
   </main>
 
   <!-- Footer with contacts -->
