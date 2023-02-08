@@ -2,39 +2,39 @@
 
 ## Description
 
-Portfolio page made in HTML and CSS at the moment
-
-- Will add JavaScript soon.
-- Will fix About me section with new avatar, background photo and about me message.
-- Will add projects when they are finished.
-- Will test in different devices and views.
+Portfolio showcasing the projects I've created.
 
 ## Table of Contents 
 
-- Title bar with shortcuts and my name.
-- About me Bar.
-- Work samples.
-- Footer with contact information.
-- Added Group Project files to Portfolio.
+**[Description](#Description)**<br>
+**[Installation](#Installation)**<br>
+**[Link to Repository](#Link-to-Project-Repository)**<br>
+**[Link to Application](#Application-Link)**<br>
+**[Screenshots](#Screenshots)**<br>
+**[Usage](#Usage)**<br>
+**[Credits](#Credits)**<br>
+**[License](#License)**<br>
 
 
 ## Installation
 
 N/A
 
-## Links
+## Link to Project Repository
 
-Link to WebPage: https://cdennis27.github.io/PortfolioPageChallenge2/
+Link to WebPage: https://cdennis27.github.io/CezarPortfolio/
 
-Link to GitHub Repository: https://github.com/cdennis27/PortfolioPageChallenge2
+## Application Link
+
+Link to GitHub Repository: https://github.com/cdennis27/CezarPortfolio
 
 ## Usage
 
-Portfolio page to help demonstrate my skills with a series of work examples.
+Interested people can search and learn about my work.
 
 ## Screenshot
 
-![Portfolio page screenshot](./assets/images/portfolioimage.jpg)
+![Portfolio page screenshot](./assets/images/portfolioScreenshot.jpg)
 
 Picture retrieved from my personal work.
 
