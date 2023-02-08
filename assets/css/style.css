@@ -202,7 +202,15 @@ header {
 }
 
 .card p {
-    padding: 0 3vw 0 3vw;
+    padding: 0 4vw 0 4vw;
+    text-align: justify;
+}
+
+.GitHub-link {
+    padding: 20px 10px 20px 10px;
+    margin: 10px 0 10px 0;
+    color: var(--white);
+    font-size: 0.8rem;
 }
 
 
@@ -211,6 +219,12 @@ header {
 
 
 
+.hover:hover {
+    margin: 0 2vw 0 2vw;
+    color: var(--brightBlue);
+    border-radius: 10%;
+    transition: 300ms ease-in-out;
+}
 
 .centered {
     justify-content: center;
