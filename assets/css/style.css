@@ -502,10 +502,49 @@ header {
     height: 120px;
 }
 
+.aboutme {
+    margin-top: 120px;
+}
+
 .aboutme-page {
     margin-top: 150px;
 }
 
-
-
+.webProjects-cards {
+    grid-template-columns: 1fr 1fr;
 }
+
+.card img {
+    width: 40vw;
+}
+
+.double-images {
+    flex-direction: column;
+    height: 800px;
+    padding: 0 0 0 0;
+       
+}
+
+.double-images a {
+    margin: 0 0 20px 0;
+    max-width: 80%;
+   
+}
+
+.double-images img {
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
