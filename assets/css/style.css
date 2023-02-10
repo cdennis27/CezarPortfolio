@@ -475,3 +475,37 @@ footer {
 
 
   
+
+
+
+
+  @media screen and (max-width: 890px) {
+  
+.hover:hover, .header-bar-left a:hover {
+    color: var(--white);
+
+}
+
+.header-bar-left, .header-bar-right {
+    font-size: 90%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.header-bar-right {
+    width: 100%;
+}
+
+header {
+    flex-direction: column;
+    height: 120px;
+}
+
+.aboutme-page {
+    margin-top: 150px;
+}
+
+
+
+}
