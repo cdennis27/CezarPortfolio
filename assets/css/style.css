@@ -23,12 +23,9 @@ html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     max-width: 100vw;
     height: auto;
-    border: red 1px solid;
+   
 }
 
-main {
-    border: var(--lightGrey) 1px solid;
-}
 
 a {
     all: unset;
@@ -62,7 +59,7 @@ header {
     z-index: +5;
     padding: 10px 0 10px 0;
     background-color: var(--bgBlue);
-    border: red 1px solid;
+    
 }
 
 .header-bar-left {
@@ -153,7 +150,7 @@ header {
     color: var(--white);
     padding: 0 0 0 0;
     margin-top: 20px;
-    border: yellow 1px solid;
+    
 }
 
 .webProjects-header {
@@ -175,7 +172,7 @@ header {
     border-bottom: var(--brightBlue) 1px solid;
     padding: 5px 0 5px 0;
     margin: 0 5vw 0 5vw;
-    border: yellowgreen 1px solid;
+    
 }
 
 .webProjects-cards {
@@ -326,9 +323,9 @@ header {
     width: 100%;
     height: auto;
     color: var(--white);
-    padding: 0 5vw 0 5vw;
+    padding: 0 5vw 300px 5vw;
     margin-top: 100px;
-    border: purple 1px solid;
+    
 }
 
 .aboutme-page p {
@@ -338,11 +335,16 @@ header {
     text-align-last: left;
     text-align: justify;
     text-indent: 5vw;
+    
 }
 
 .aboutme-page h1 {
     font-size: 2rem;
     margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+    text-align: center;
+    width: 89%;
+    border-bottom: var(--brightBlue) 1px solid;
 }
 
 .project-header {
@@ -398,7 +400,7 @@ header {
     max-width: 100%;
     max-height: 350px;
     border-radius: 20px;
-    border: green 1px solid;
+    
     
     
 }
