@@ -571,7 +571,7 @@ header {
   }
 
 
-    @media screen and (max-width: 660px) {
+@media screen and (max-width: 660px) {
     
 .webProjects-cards {
     grid-template-columns: 1fr;
@@ -586,7 +586,18 @@ header {
 }
 
 .aboutme {
-    height: 300px;
+    height: 270px;
+}
+
+.aboutme-left-container {
+    
+    width: 40vw;
+
+}
+
+.aboutme img {
+    width: 50vw;
+    
 }
        
     }
