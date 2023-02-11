@@ -568,16 +568,25 @@ header {
     max-width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
   }
+
+
+    @media screen and (max-width: 660px) {
+    
+.webProjects-cards {
+    grid-template-columns: 1fr;
+}
+    
+.card img {
+    width: 80vw;
+}
+    
+.contact div {
+    width: 80%;
+}
+
+.aboutme {
+    height: 300px;
+}
+       
+    }
