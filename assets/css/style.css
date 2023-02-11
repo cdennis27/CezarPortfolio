@@ -475,9 +475,42 @@ footer {
 
 
   
+@media screen and (max-width: 1000px) {
+    .header-bar-left, .header-bar-right {
+        font-size: 90%;
+        
+    }
 
-
-
+    .header-bar-right {
+        font-size: 80%;
+    }
+    
+    .webProjects-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .card img {
+        width: 40vw;
+    }
+    
+    .double-images {
+        flex-direction: column;
+        height: 800px;
+        padding: 0 0 0 0;
+           
+    }
+    
+    .double-images a {
+        margin: 0 0 20px 0;
+        max-width: 80%;
+       
+    }
+    
+    .double-images img {
+        max-width: 100%;
+    }
+    
+}
 
   @media screen and (max-width: 890px) {
   
