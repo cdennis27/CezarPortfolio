@@ -587,6 +587,7 @@ header {
 
 .aboutme {
     height: 270px;
+    padding: 0 5vw 0 5vw;
 }
 
 .aboutme-left-container {
