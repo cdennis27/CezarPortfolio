@@ -267,52 +267,9 @@ header {
     text-align: left;
 }
 
-.resume-main-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 100%;
-    height: auto;
-    color: var(--white);
-    padding: 5vw;
-    margin: 0 0 0 0;
-}
-
-.resume-right-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: auto;
-    height: 100%;
-    color: var(--white);
-    padding: 0 0 50px 0;
-    margin: 0 0 0 0;
-    background-color: var(--greyBlue);
-    border-radius: 20px;
-}
-
-.resume-left-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: auto;
-    height: stretch;
-    color: var(--white);
-    padding: 0 0 0 0;
-    margin: 0 0 0 0;
-    background-color: var(--lightGrey);
-    border-radius: 20px;
-}
-
 .resume h1 {
     font-size: 2rem;
-    margin: 0 0 40px 0;
+    margin: 0 0 20px 0;
 }
 
 .resume-header {
@@ -366,8 +323,7 @@ header {
     color: var(--black);
     font-weight: bolder;
     font-size: 1rem;
-    margin-top: 0px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     padding: 0;
     border-radius: 5px;
     transition: 200ms ease-in-out;
@@ -632,15 +588,6 @@ header {
 
 .double-images img {
     max-width: 100%;
-}
-
-.button-resume {
-    margin: 80px 0 0 0;
-    padding: 0 0 0 0;
-}
-
-.resume h1 {
-    margin-top: 60px;
 }
 
   }
