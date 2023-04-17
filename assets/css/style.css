@@ -409,8 +409,8 @@ header {
 .aboutme-main-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     position: relative;
     width: 100%;
     height: auto;
@@ -434,9 +434,10 @@ header {
 .aboutme-page h1 {
     font-size: 2rem;
     margin: 0 0 20px 0;
-    padding: 0 0 20px 0;
+    padding: 0 10vw 20px 10vw;
     text-align: center;
-    width: 89%;
+    align-self: center;
+    width: 88%;
     border-bottom: var(--brightBlue) 1px solid;
 }
 
